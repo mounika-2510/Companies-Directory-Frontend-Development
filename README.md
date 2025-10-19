@@ -65,7 +65,7 @@ The app will run on http://localhost:3000
 📸 Project Preview
 
 
-(Replace with your actual screenshot filename if different)
+(https://companies-directory-frontend-develo-three.vercel.app/)
 
 
 ---
