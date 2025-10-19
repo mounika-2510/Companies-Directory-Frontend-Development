@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# 🏢 Companies Directory – Frontend Development
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📘 Overview
+The *Companies Directory* is a React-based frontend web application that displays a list of companies with detailed information such as name, industry, location, number of employees, and founding year. It provides *filtering and searching functionalities* that allow users to explore companies efficiently.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📸 Project Preview
 
-### `npm start`
+![Companies Directory Preview](https://res.cloudinary.com/drecb9hgv/image/upload/v1760862421/Screenshot_2025-10-19_135557_fzaff9.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🎯 Objective
+To design and implement a *responsive React.js frontend* that consumes company data from an API and presents it in a structured, user-friendly interface with filtering and pagination options.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧩 Features
+✅ *Company Listing* – Displays company information in a card layout.  
+✅ *Search Functionality* – Filter companies by name or industry using a search bar.  
+✅ *Dropdown Filters* – Filter by location and industry with dropdown menus.  
+✅ *Pagination* – Navigate through multiple pages of company listings.  
+✅ *Responsive Design* – Works smoothly across devices of all screen sizes.  
+✅ *Reusable Components* – Structured React components for better maintainability.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🖥 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Category | Technology |
+|-----------|-------------|
+| *Frontend Framework* | React.js |
+| *Styling* | CSS / Flexbox / Grid |
+| *Data Handling* | API (Fetch or Axios) |
+| *Pagination* | Custom logic or state-based |
+| *Deployment* | GitHub Pages (optional) |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Folder Structure
 
-### `npm run eject`
+src/ ├── components/ │   ├── CompanyCard/ │   │   ├── index.js │   │   └── index.css │   ├── Filters/ │   │   ├── index.js │   │   └── index.css │   └── Pagination/ │       ├── index.js │       └── index.css ├── App.js ├── App.css ├── index.js └── data/ └── companies.json (if using static data)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 How to Run Locally
+Follow these steps to set up the project on your local system:
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/mounika-2510/Companies-Directory-Frontend-Development.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 2️⃣ Navigate to the project folder
+cd Companies-Directory-Frontend-Development
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 3️⃣ Install dependencies
+npm install
 
-## Learn More
+# 4️⃣ Start the development server
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The app will run on http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📸 Project Preview
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+(Replace with your actual screenshot filename if different)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+🧠 Key Learnings
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Building reusable and modular React components.
 
-### Deployment
+Implementing search, filters, and pagination in React.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Managing component state and props effectively.
 
-### `npm run build` fails to minify
+Creating responsive layouts using CSS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Working with mock API data or static JSON files.
+
+
+---
+
+⭐ If you found this project helpful, consider giving it a star on GitHub!
