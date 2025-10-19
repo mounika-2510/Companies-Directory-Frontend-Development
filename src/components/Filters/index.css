@@ -1,0 +1,9 @@
+.filters {
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  align-items:center;
+}
+.f-input { padding:8px; min-width:180px; border:1px solid #ddd; border-radius:6px; }
+.f-select { padding:8px; border:1px solid #ddd; border-radius:6px; }
+.f-btn { padding:8px 10px; border:1px solid #ddd; border-radius:6px; background:#f7f7f7; cursor:pointer; }

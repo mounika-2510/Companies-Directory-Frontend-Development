@@ -1,0 +1,22 @@
+.card {
+  border: 1px solid #e3e3e3;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fff;
+}
+.card-title {
+  margin: 0 0 6px 0;
+  font-size: 16px;
+}
+.card-meta {
+  margin: 0 0 10px 0;
+  color: #555;
+  font-size: 13px;
+}
+.card-link {
+  display: inline-block;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #0b66ff;
+  font-size: 13px;
+}

@@ -1,0 +1,4 @@
+.app { font-family:Inter,system-ui,Arial,Helvetica,sans-serif; color:#222; min-height:100vh; background:#f6f7fb; }
+.app-header { padding:18px 12px; text-align:center; background:#fff; border-bottom:1px solid #eee; }
+.app-header h1 { margin:0; font-size:20px; }
+main { padding:12px 0; }

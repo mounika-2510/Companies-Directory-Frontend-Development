@@ -1,0 +1,9 @@
+.loader-wrap { display:flex; align-items:center; justify-content:center; height:160px; color:#444; }
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #0b66ff;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+}
